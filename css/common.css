@@ -1,0 +1,21 @@
+.wrap{
+    width: 100%;
+    overflow: hidden;
+}
+
+header, section, footer{
+    width: 100%;
+}
+
+.section_title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width:840px){
+    .section_title{
+        font-size: 30px;
+    }
+}
